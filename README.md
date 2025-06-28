@@ -1,26 +1,42 @@
-# Carpooling Application in Java and JavaFX
+# 🚗 CarPoolEasy – JavaFX Carpooling App with GCP-Supported SMTP
 
-Collaboratively developed a carpooling application in Java and JavaFX within a team of three, applying object-oriented programming principles and Scene Builder to efficiently address urban transportation challenges.
+CarPoolEasy is a full-stack desktop carpool management application built using JavaFX and MySQL. It allows users to register, log in, post rides, and search for available carpool options. The application is designed with clean object-oriented principles and includes email verification using SMTP supported by Google Cloud.
 
-## Project Overview
+---
 
-This project aimed to create a carpooling application using Java and JavaFX to facilitate efficient urban transportation solutions. Key features included:
+## 🧰 Tech Stack
 
-- **Object-Oriented Programming (OOP)**: Utilized OOP principles to design and implement robust and scalable code architecture.
-- **JavaFX and Scene Builder**: Developed the user interface using JavaFX and Scene Builder to create intuitive and user-friendly application screens.
-- **Database Integration**: Integrated MySQL database for storing user information, ride details, and application settings.
-- **Google Cloud Platform (GCP)**: Utilized GCP services for cloud hosting and deployment of the application.
-- **Simple Mail Transfer Protocol (SMTP)**: Implemented SMTP for email notifications and communication between users.
+- **Language & UI**: Java, JavaFX, SceneBuilder
+- **Backend**: MySQL (local instance)
+- **Email**: SMTP (Gmail SMTP via Google Cloud)
+- **Deployment**: Locally deployed using JAR + startup script
 
-## Skills Demonstrated
+---
 
-- **Java and JavaFX**: Developed front-end and back-end functionalities using Java and JavaFX.
-- **Object-Oriented Programming (OOP)**: Applied OOP concepts such as inheritance, encapsulation, and polymorphism for modular and maintainable code.
-- **MySQL**: Designed and managed a relational database schema for efficient data storage and retrieval.
-- **Google Cloud Platform (GCP)**: Deployed the application on GCP, leveraging cloud services for scalability and reliability.
-- **SMTP**: Integrated email functionality using SMTP for user notifications and communication.
+## 🛠️ Key Features
 
-## Project Structure
+- 🧾 User registration and authentication with hashed passwords  
+- 🚗 Ride post creation and search functionality  
+- ✉️ Email verification using SMTP (Google Cloud/Gmail)  
+- 🖥 User-friendly GUI built with JavaFX and SceneBuilder  
 
-Describe any additional details about the project structure, directory organization, or setup instructions here.
+---
 
+## ⚙️ Deployment Overview
+
+- MySQL database and app run locally  
+- Application packaged as a JAR and executed with a local startup script  
+- SMTP email verification configured using Google Cloud SMTP (Gmail)  
+- Desktop GUI interface connects with local backend and DB
+
+---
+
+## 🔗 Links
+
+- 📂 GitHub Repo: [CarPoolEasy](https://github.com/poojapk0605/CarPoolEasy)  
+- 📫 [Connect on LinkedIn](https://www.linkedin.com/in/poojakannanpk/)
+
+---
+
+## 📄 License  
+MIT License
