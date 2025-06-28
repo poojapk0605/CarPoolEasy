@@ -24,10 +24,10 @@ CarPoolEasy is a full-stack desktop carpool management application built using J
 
 ## ⚙️ Deployment Overview
 
-- MySQL database and app run locally  
-- Application packaged as a JAR and executed with a local startup script  
-- SMTP email verification configured using Google Cloud SMTP (Gmail)  
-- Desktop GUI interface connects with local backend and DB
+- MySQL database and application ran locally
+- Application was packaged as a runnable JAR and executed manually in the local environment
+- SMTP email verification was configured using Gmail SMTP (via Google Cloud)
+- The JavaFX desktop GUI connected to the local backend and MySQL database
 
 ---
 
